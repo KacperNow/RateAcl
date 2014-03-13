@@ -5,4 +5,4 @@ echo "\
 awk '/yfs_l10_usdpln=x/ {print $0}' | \
 sed 's/[<>]/\n/g' | \
 grep -A 1 yfs_l10_usdpln=x | \
-tail -1`" >> usdpln-yahoo-`date +'%F'`.txt
+tail -1`" >> quote.txt
